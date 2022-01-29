@@ -12,7 +12,7 @@ This Project is currently only desktop responsive but will be responsive in the 
 
 ## Live Demo
 
-[Live Demo Link](https://andreacostabz.github.io/andre-acosta-portfolio/)
+[Live Demo Link](https://googleclonebz.netlify.app/)
 
 
 ## Authors
