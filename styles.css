@@ -29,7 +29,31 @@ section.main-container img {
 }
 
 section.main-container input {
+    box-sizing: border-box;
+    border: 1px solid b;
+    width: 25%;
+    height: 5%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+div.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+div.buttons button {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 40px;
     width: fit-content;
+    letter-spacing: 1.2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5%;
+    margin-bottom: 3em;
 }
 
 section.location {
