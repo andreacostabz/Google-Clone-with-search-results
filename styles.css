@@ -9,3 +9,15 @@ section.main-container {
     height: 100vh;
     background-color: #202124;
 }
+
+nav.top-nav {
+    width: 100vw;
+    display: flex;
+}
+
+nav.top-nav ul {
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+    color: white;
+}
