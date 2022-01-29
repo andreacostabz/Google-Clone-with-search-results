@@ -75,10 +75,7 @@ div.buttons button {
     padding-left: 10px;
     border-radius: 5%;
     margin-bottom: 3em;
-}
-
-section.main-container span {
-    color: blue;
+    font-family: 'Inter', sans-serif;
 }
 
 section.location {
@@ -89,6 +86,12 @@ section.location {
 section.location p {
    align-self: center;
    padding-left: 1em;
+   font-family: 'Inter', sans-serif;
+}
+
+section.main-container span {
+    color: blue;
+    font-family: 'Inter', sans-serif;
 }
 
 footer.main-footer {
@@ -100,6 +103,7 @@ footer.main-footer ul {
     display: flex;
     gap: 24px;
     padding-left: 1em;
+    font-family: 'Inter', sans-serif;
 }
 
 footer.main-footer ul.second-list {
