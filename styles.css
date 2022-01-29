@@ -26,8 +26,12 @@ nav.top-nav ul a {
     text-decoration: none;
 }
 
-i.fa-user-circle {
-    
+nav.top-nav ul button {
+    width: 60px;
+    height: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
 }
 
 section.main-container {
@@ -38,6 +42,18 @@ section.main-container {
     height: 90vh;
 }
 
+nav.top-nav ul li :hover {
+    text-decoration: underline;
+}
+
+nav.top-nav ul button:hover {
+    cursor: pointer;
+}
+
+nav.top-nav ul i:hover {
+    cursor: pointer;
+}
+
 section.main-container img {
     width: 20%;
     height: auto;
@@ -46,16 +62,24 @@ section.main-container img {
 section.main-container input {
     box-sizing: border-box;
     border: 1px solid black;
-    width: 25%;
-    height: 5%;
+    width: 40%;
+    height: 3%;
     margin-top: 3em;
     margin-bottom: 2em;
+    padding: 12px;
+    border-radius: 50px;
 }
+
+section.main-container input:hover {
+    background-color: #383535;
+}
+
 
 i.fa-search {
     position: absolute;
-    left: 38%;
-    top: 49%;
+    left: 31%;
+    top: 50%;
+    background: transparent;
 }
 
 div.buttons {
@@ -73,25 +97,42 @@ div.buttons button {
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    border-radius: 5%;
+    border-radius: 5px;
     margin-bottom: 3em;
     font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #383535;
+}
+
+div.buttons button:hover {
+    cursor: pointer;
+}
+
+section.main-container p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+section.main-container span {
+    color: rgb(87, 87, 238);
+    font-family: 'Inter', sans-serif;
+}
+
+section.main-container span:hover {
+    cursor: pointer;
 }
 
 section.location {
     display: flex;
     height: 4vh;
+    box-sizing: border-box;
 }
 
 section.location p {
    align-self: center;
    padding-left: 1em;
    font-family: 'Inter', sans-serif;
-}
-
-section.main-container span {
-    color: blue;
-    font-family: 'Inter', sans-serif;
+   color: white;
 }
 
 footer.main-footer {
@@ -104,9 +145,15 @@ footer.main-footer ul {
     gap: 24px;
     padding-left: 1em;
     font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 footer.main-footer ul.second-list {
     margin-left: auto;
     padding-right: 1em;
+}
+
+footer.main-footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
