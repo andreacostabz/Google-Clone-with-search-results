@@ -20,7 +20,7 @@ section.main-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 93vh;
+    height: 90vh;
 }
 
 section.main-container img {
@@ -30,11 +30,17 @@ section.main-container img {
 
 section.main-container input {
     box-sizing: border-box;
-    border: 1px solid b;
+    border: 1px solid black;
     width: 25%;
     height: 5%;
     margin-top: 3em;
     margin-bottom: 2em;
+}
+
+i.fa-search {
+    position: absolute;
+    left: 38%;
+    top: 47.5%;
 }
 
 div.buttons {
@@ -56,17 +62,32 @@ div.buttons button {
     margin-bottom: 3em;
 }
 
+section.main-container span {
+    color: blue;
+}
+
 section.location {
-    background-color: #202124;
+    display: flex;
+    height: 5vh;
+}
+
+section.location p {
+   align-self: center;
+   padding-left: 1em;
 }
 
 footer.main-footer {
     display: flex;
-    background-color: violet;
     height: 25px;
 }
 
 footer.main-footer ul {
     display: flex;
     gap: 24px;
+    padding-left: 1em;
+}
+
+footer.main-footer ul.second-list {
+    margin-left: auto;
+    padding-right: 1em;
 }
