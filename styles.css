@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +15,15 @@ nav.top-nav ul {
     display: flex;
     gap: 24px;
     margin-left: auto;
+    color: white;
+    padding-top: 1%;
+    padding-right: 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+nav.top-nav ul a {
+    color: white;
+    text-decoration: none;
 }
 
 i.fa-user-circle {
@@ -45,7 +55,7 @@ section.main-container input {
 i.fa-search {
     position: absolute;
     left: 38%;
-    top: 47.5%;
+    top: 49%;
 }
 
 div.buttons {
@@ -73,7 +83,7 @@ section.main-container span {
 
 section.location {
     display: flex;
-    height: 5vh;
+    height: 4vh;
 }
 
 section.location p {
