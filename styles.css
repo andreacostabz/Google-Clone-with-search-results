@@ -4,12 +4,6 @@
     list-style-type: none;
 }
 
-section.main-container {
-    display: flex;
-    height: 100vh;
-    background-color: #202124;
-}
-
 nav.top-nav {
     width: 100vw;
     display: flex;
@@ -19,5 +13,36 @@ nav.top-nav ul {
     display: flex;
     gap: 24px;
     margin-left: auto;
-    color: white;
+}
+
+section.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+}
+
+section.main-container img {
+    width: 20%;
+    height: auto;
+}
+
+section.main-container input {
+    width: fit-content;
+}
+
+section.location {
+    background-color: #202124;
+}
+
+footer.main-footer {
+    display: flex;
+    background-color: violet;
+    height: 25px;
+}
+
+footer.main-footer ul {
+    display: flex;
+    gap: 24px;
 }
