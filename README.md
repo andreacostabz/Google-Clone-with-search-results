@@ -11,7 +11,7 @@ This Project is currently only desktop responsive but will be responsive in the 
 - JS
 
 ## Live Demo
-
+#Click link below for live demo.
 [Live Demo Link](https://googleclonebz.netlify.app/)
 
 
